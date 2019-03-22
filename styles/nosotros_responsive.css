@@ -291,10 +291,19 @@
 ************/
 
 @media only screen and (max-width: 575px)
-{
-	h1{font-size: 24px;}
+{	
+        .home_content h1 {
+             font-size: 30px;
+        }
 	p{font-size:13px;}
-	.header
+	
+        .home_content {
+    padding-top: 17px;
+    padding-bottom: 11px;
+    padding-left: 22px;
+    padding-right: 24px;
+}
+        .header
 	{
 		height: 74px;
 	}
@@ -308,7 +317,7 @@
 	}
 	.logo span
 	{
-		font-size: 16px;
+		font-size: 15px;
 	}
 	.hamburger_container
 	{
